@@ -1,0 +1,49 @@
+C:\railss\first>bundle install
+Fetching source index for https://rubygems.org/
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22/lib/bundler/
+source.rb:253:in `fetch_all_remote_specs': undefined method `list' for #<Gem::Sp
+ecFetcher:0x2e19be0> (NoMethodError)
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/source.rb:234:in `block in remote_specs'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/source.rb:231:in `each'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/source.rb:231:in `remote_specs'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/source.rb:165:in `fetch_specs'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/source.rb:70:in `specs'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/definition.rb:176:in `block (2 levels) in index'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/definition.rb:175:in `each'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/definition.rb:175:in `block in index'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/index.rb:7:in `build'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/definition.rb:174:in `index'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/definition.rb:168:in `resolve'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/definition.rb:107:in `specs'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/definition.rb:102:in `resolve_remotely!'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/installer.rb:43:in `run'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/installer.rb:8:in `install'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/cli.rb:219:in `install'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/vendor/thor/task.rb:22:in `run'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/vendor/thor/invocation.rb:118:in `invoke_task'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/vendor/thor.rb:263:in `dispatch'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/lib/bundler/vendor/thor/base.rb:386:in `start'
+        from C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bundler-1.0.22
+/bin/bundle:13:in `<top (required)>'
+        from C:/RailsInstaller/Ruby1.9.3/bin/bundle:19:in `load'
+        from C:/RailsInstaller/Ruby1.9.3/bin/bundle:19:in `<main>'
